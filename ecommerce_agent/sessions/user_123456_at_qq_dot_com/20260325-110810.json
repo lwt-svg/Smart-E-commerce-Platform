@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-03-25T11:08:10.031Z",
+  "updated_at": "2026-03-25T11:08:10.031Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我查找苹果手机",
+      "timestamp": "2026-03-25T02:58:54.056Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"千幻魔镜 智能vr眼镜 游戏头盔虚拟现实眼镜ar眼镜3D电影苹果安卓手机通用 【影视版】升级版高清眼镜+蓝牙手柄\", \"price\": 89.0, \"image_url\": \"http://localhost:8001/static/product_images/45237194424.jpg\", \"product_url\": \"http://localhost:8080/detail/45237194424\", \"sku_id\": \"45237194424\"}, {\"name\": \"二手苹果iPhone4s手机苹果4s小屏学生老人备用智能手机 4 wifi版 不插卡 白色 8成新 8GB 中国大陆\", \"price\": 91.0, \"image_url\": \"http://localhost:8001/static/product_images/10043461539239.jpg\", \"product_url\": \"http://localhost:8080/detail/10043461539239\", \"sku_id\": \"10043461539239\"}, {\"name\": \"Apple MagSafe 外接电池 适用于iPhone12/iPhone13系列 磁吸 无线充电\", \"price\": 749.0, \"image_url\": \"http://localhost:8001/static/product_images/100024120636.jpg\", \"product_url\": \"http://localhost:8080/detail/100024120636\", \"sku_id\": \"100024120636\"}, {\"name\": \"Apple iPhone 12 (A2404) 128GB 黑色 支持移动联通电信5G 双卡双待手机J\", \"price\": 4999.0, \"image_url\": \"http://localhost:8001/static/product_images/100026821032.jpg\", \"product_url\": \"http://localhost:8080/detail/100026821032\", \"sku_id\": \"100026821032\"}, {\"name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"price\": 5999.0, \"image_url\": \"http://localhost:8001/static/product_images/100038004353.jpg\", \"product_url\": \"http://localhost:8080/detail/100038004353\", \"sku_id\": \"100038004353\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 128GB 远峰蓝色 支持移动联通电信5G 双卡双待手机（上海电信）\", \"price\": 8999.0, \"image_url\": \"http://localhost:8001/static/product_images/100014373869.jpg\", \"product_url\": \"http://localhost:8080/detail/100014373869\", \"sku_id\": \"100014373869\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"price\": 9799.0, \"image_url\": \"http://localhost:8001/static/product_images/100019718263.jpg\", \"product_url\": \"http://localhost:8080/detail/100019718263\", \"sku_id\": \"100019718263\"}]}",
+      "timestamp": "2026-03-25T02:58:54.557Z"
+    },
+    {
+      "role": "user",
+      "content": "给我第六个商品的评论",
+      "timestamp": "2026-03-25T02:59:05.735Z"
+    },
+    {
+      "role": "assistant",
+      "content": "请先提供商品名称，或者先让我帮您推荐商品。",
+      "timestamp": "2026-03-25T02:59:06.493Z"
+    },
+    {
+      "role": "user",
+      "content": "帮我查找苹果手机",
+      "timestamp": "2026-03-25T03:03:48.507Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"千幻魔镜 智能vr眼镜 游戏头盔虚拟现实眼镜ar眼镜3D电影苹果安卓手机通用 【影视版】升级版高清眼镜+蓝牙手柄\", \"price\": 89.0, \"image_url\": \"http://localhost:8001/static/product_images/45237194424.jpg\", \"product_url\": \"http://localhost:8080/detail/45237194424\", \"sku_id\": \"45237194424\"}, {\"name\": \"二手苹果iPhone4s手机苹果4s小屏学生老人备用智能手机 4 wifi版 不插卡 白色 8成新 8GB 中国大陆\", \"price\": 91.0, \"image_url\": \"http://localhost:8001/static/product_images/10043461539239.jpg\", \"product_url\": \"http://localhost:8080/detail/10043461539239\", \"sku_id\": \"10043461539239\"}, {\"name\": \"Apple MagSafe 外接电池 适用于iPhone12/iPhone13系列 磁吸 无线充电\", \"price\": 749.0, \"image_url\": \"http://localhost:8001/static/product_images/100024120636.jpg\", \"product_url\": \"http://localhost:8080/detail/100024120636\", \"sku_id\": \"100024120636\"}, {\"name\": \"Apple iPhone 12 (A2404) 128GB 黑色 支持移动联通电信5G 双卡双待手机J\", \"price\": 4999.0, \"image_url\": \"http://localhost:8001/static/product_images/100026821032.jpg\", \"product_url\": \"http://localhost:8080/detail/100026821032\", \"sku_id\": \"100026821032\"}, {\"name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"price\": 5999.0, \"image_url\": \"http://localhost:8001/static/product_images/100038004353.jpg\", \"product_url\": \"http://localhost:8080/detail/100038004353\", \"sku_id\": \"100038004353\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 128GB 远峰蓝色 支持移动联通电信5G 双卡双待手机（上海电信）\", \"price\": 8999.0, \"image_url\": \"http://localhost:8001/static/product_images/100014373869.jpg\", \"product_url\": \"http://localhost:8080/detail/100014373869\", \"sku_id\": \"100014373869\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"price\": 9799.0, \"image_url\": \"http://localhost:8001/static/product_images/100019718263.jpg\", \"product_url\": \"http://localhost:8080/detail/100019718263\", \"sku_id\": \"100019718263\"}]}",
+      "timestamp": "2026-03-25T03:03:49.044Z"
+    },
+    {
+      "role": "user",
+      "content": "给我第六个商品的评论",
+      "timestamp": "2026-03-25T03:03:56.960Z"
+    },
+    {
+      "role": "assistant",
+      "content": "请先提供商品名称，或者先让我帮您推荐商品。",
+      "timestamp": "2026-03-25T03:03:57.465Z"
+    },
+    {
+      "role": "user",
+      "content": "帮我查找苹果手机",
+      "timestamp": "2026-03-25T03:07:43.731Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"千幻魔镜 智能vr眼镜 游戏头盔虚拟现实眼镜ar眼镜3D电影苹果安卓手机通用 【影视版】升级版高清眼镜+蓝牙手柄\", \"price\": 89.0, \"image_url\": \"http://localhost:8001/static/product_images/45237194424.jpg\", \"product_url\": \"http://localhost:8080/detail/45237194424\", \"sku_id\": \"45237194424\"}, {\"name\": \"二手苹果iPhone4s手机苹果4s小屏学生老人备用智能手机 4 wifi版 不插卡 白色 8成新 8GB 中国大陆\", \"price\": 91.0, \"image_url\": \"http://localhost:8001/static/product_images/10043461539239.jpg\", \"product_url\": \"http://localhost:8080/detail/10043461539239\", \"sku_id\": \"10043461539239\"}, {\"name\": \"Apple MagSafe 外接电池 适用于iPhone12/iPhone13系列 磁吸 无线充电\", \"price\": 749.0, \"image_url\": \"http://localhost:8001/static/product_images/100024120636.jpg\", \"product_url\": \"http://localhost:8080/detail/100024120636\", \"sku_id\": \"100024120636\"}, {\"name\": \"Apple iPhone 12 (A2404) 128GB 黑色 支持移动联通电信5G 双卡双待手机J\", \"price\": 4999.0, \"image_url\": \"http://localhost:8001/static/product_images/100026821032.jpg\", \"product_url\": \"http://localhost:8080/detail/100026821032\", \"sku_id\": \"100026821032\"}, {\"name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"price\": 5999.0, \"image_url\": \"http://localhost:8001/static/product_images/100038004353.jpg\", \"product_url\": \"http://localhost:8080/detail/100038004353\", \"sku_id\": \"100038004353\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 128GB 远峰蓝色 支持移动联通电信5G 双卡双待手机（上海电信）\", \"price\": 8999.0, \"image_url\": \"http://localhost:8001/static/product_images/100014373869.jpg\", \"product_url\": \"http://localhost:8080/detail/100014373869\", \"sku_id\": \"100014373869\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"price\": 9799.0, \"image_url\": \"http://localhost:8001/static/product_images/100019718263.jpg\", \"product_url\": \"http://localhost:8080/detail/100019718263\", \"sku_id\": \"100019718263\"}]}",
+      "timestamp": "2026-03-25T03:07:44.558Z"
+    },
+    {
+      "role": "user",
+      "content": "给我第六个商品的评论",
+      "timestamp": "2026-03-25T03:07:48.339Z"
+    },
+    {
+      "role": "assistant",
+      "content": "请先提供商品名称，或者先让我帮您推荐商品。",
+      "timestamp": "2026-03-25T03:07:48.781Z"
+    },
+    {
+      "role": "user",
+      "content": "帮我查找苹果手机",
+      "timestamp": "2026-03-25T03:09:56.419Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"千幻魔镜 智能vr眼镜 游戏头盔虚拟现实眼镜ar眼镜3D电影苹果安卓手机通用 【影视版】升级版高清眼镜+蓝牙手柄\", \"price\": 89.0, \"image_url\": \"http://localhost:8001/static/product_images/45237194424.jpg\", \"product_url\": \"http://localhost:8080/detail/45237194424\", \"sku_id\": \"45237194424\"}, {\"name\": \"二手苹果iPhone4s手机苹果4s小屏学生老人备用智能手机 4 wifi版 不插卡 白色 8成新 8GB 中国大陆\", \"price\": 91.0, \"image_url\": \"http://localhost:8001/static/product_images/10043461539239.jpg\", \"product_url\": \"http://localhost:8080/detail/10043461539239\", \"sku_id\": \"10043461539239\"}, {\"name\": \"Apple MagSafe 外接电池 适用于iPhone12/iPhone13系列 磁吸 无线充电\", \"price\": 749.0, \"image_url\": \"http://localhost:8001/static/product_images/100024120636.jpg\", \"product_url\": \"http://localhost:8080/detail/100024120636\", \"sku_id\": \"100024120636\"}, {\"name\": \"Apple iPhone 12 (A2404) 128GB 黑色 支持移动联通电信5G 双卡双待手机J\", \"price\": 4999.0, \"image_url\": \"http://localhost:8001/static/product_images/100026821032.jpg\", \"product_url\": \"http://localhost:8080/detail/100026821032\", \"sku_id\": \"100026821032\"}, {\"name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"price\": 5999.0, \"image_url\": \"http://localhost:8001/static/product_images/100038004353.jpg\", \"product_url\": \"http://localhost:8080/detail/100038004353\", \"sku_id\": \"100038004353\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 128GB 远峰蓝色 支持移动联通电信5G 双卡双待手机（上海电信）\", \"price\": 8999.0, \"image_url\": \"http://localhost:8001/static/product_images/100014373869.jpg\", \"product_url\": \"http://localhost:8080/detail/100014373869\", \"sku_id\": \"100014373869\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"price\": 9799.0, \"image_url\": \"http://localhost:8001/static/product_images/100019718263.jpg\", \"product_url\": \"http://localhost:8080/detail/100019718263\", \"sku_id\": \"100019718263\"}]}",
+      "timestamp": "2026-03-25T03:09:56.985Z"
+    },
+    {
+      "role": "user",
+      "content": "给我第六个商品的评论",
+      "timestamp": "2026-03-25T03:10:00.051Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"comment_list\", \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 128GB 远峰蓝色 支持移动联通电信5G 双卡双待手机（上海电信）\", \"sku_id\": \"100014373869\", \"avg_score\": 4.8, \"total_comments\": 5, \"comments\": [{\"sku_id\": \"100014373869\", \"nickname\": \"jie26\", \"score\": 5.0, \"create_time\": \"2025-11-05 21:17:09\", \"content\": \"商品名称：徐峰\\n评论内容：屏幕显示拍照清晰，系统流畅度握感舒适，握持手感偶有卡顿，质量不错，符合描述。\\n评分：5\\n昵称：jie26\"}, {\"sku_id\": \"100014373869\", \"nickname\": \"yan52\", \"score\": 5.0, \"create_time\": \"2025-09-22 21:17:09\", \"content\": \"商品名称：蓝鑫\\n评论内容：拍照效果充电极快，握持手感续航给力，性价比很高，推荐给大家。\\n评分：5\\n昵称：yan52\"}, {\"sku_id\": \"100014373869\", \"nickname\": \"weiqiang\", \"score\": 4.0, \"create_time\": \"2026-02-19 21:17:09\", \"content\": \"商品名称：王明\\n评论内容：拍照效果握感舒适，屏幕显示充电极快，系统流畅度握感舒适，性价比很高，推荐给大家。\\n评分：4\\n昵称：weiqiang\"}, {\"sku_id\": \"100014373869\", \"nickname\": \"chao95\", \"score\": 5.0, \"create_time\": \"2025-04-22 21:17:09\", \"content\": \"商品名称：王秀梅\\n评论内容：握持手感系统流畅，充电速度屏幕细腻，拍照效果屏幕细腻，性价比很高，推荐给大家。\\n评分：5\\n昵称：chao95\"}, {\"sku_id\": \"100014373869\", \"nickname\": \"yang31\", \"score\": 5.0, \"create_time\": \"2025-08-28 21:17:09\", \"content\": \"商品名称：王丹\\n评论内容：充电速度充电较慢，屏幕显示续航给力，电池续航充电极快，值得购买，下次还会回购。\\n评分：5\\n昵称：yang31\"}]}",
+      "timestamp": "2026-03-25T03:10:08.320Z"
+    }
+  ]
+}

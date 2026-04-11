@@ -1,0 +1,12 @@
+# 前端依赖
+muxi_shop_web/node_modules/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 其他常见忽略项
+*.log
+.DS_Store
+Thumbs.db

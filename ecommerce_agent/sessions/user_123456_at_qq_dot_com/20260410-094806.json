@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-04-10T09:48:06.256Z",
+  "updated_at": "2026-04-10T09:48:06.256Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请给我查找苹果手机",
+      "timestamp": "2026-04-10T09:47:29.873Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"二手苹果iPhone4s手机苹果4s小屏学生老人备用智能手机 4 wifi版 不插卡 白色 8成新 8GB 中国大陆\", \"price\": 91.0, \"image_url\": \"http://localhost:8001/static/product_images/10043461539239.jpg\", \"product_url\": \"http://localhost:8080/detail/10043461539239\", \"sku_id\": \"10043461539239\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}, {\"name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"price\": 5999.0, \"image_url\": \"http://localhost:8001/static/product_images/100038004353.jpg\", \"product_url\": \"http://localhost:8080/detail/100038004353\", \"sku_id\": \"100038004353\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 128GB 远峰蓝色 支持移动联通电信5G 双卡双待手机（上海电信）\", \"price\": 8999.0, \"image_url\": \"http://localhost:8001/static/product_images/100014373869.jpg\", \"product_url\": \"http://localhost:8080/detail/100014373869\", \"sku_id\": \"100014373869\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"price\": 9799.0, \"image_url\": \"http://localhost:8001/static/product_images/100019718263.jpg\", \"product_url\": \"http://localhost:8080/detail/100019718263\", \"sku_id\": \"100019718263\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}]}",
+      "timestamp": "2026-04-10T09:47:30.138Z"
+    },
+    {
+      "role": "user",
+      "content": "第二款手机优点是啥",
+      "timestamp": "2026-04-10T09:47:36.937Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"positive_points\", \"query\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"total\": 5, \"points\": [{\"rank\": 1, \"product_name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100038004353\", \"point\": \"信号稳定，通话质量清晰\", \"score\": 5.0, \"confidence\": 0.92}, {\"rank\": 2, \"product_name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100038004353\", \"point\": \"屏幕显示效果细腻，色彩还原度高\", \"score\": 4.0, \"confidence\": 0.78}, {\"rank\": 3, \"product_name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100038004353\", \"point\": \"运行速度很快，玩游戏完全不卡\", \"score\": 4.0, \"confidence\": 0.86}, {\"rank\": 4, \"product_name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100038004353\", \"point\": \"性价比很高，这个价位非常值得\", \"score\": 5.0, \"confidence\": 0.77}, {\"rank\": 5, \"product_name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100038004353\", \"point\": \"手感很好，做工精细，颜值在线\", \"score\": 5.0, \"confidence\": 0.77}]}",
+      "timestamp": "2026-04-10T09:47:43.619Z"
+    },
+    {
+      "role": "user",
+      "content": "综合评价呢",
+      "timestamp": "2026-04-10T09:47:48.024Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"sentiment_analysis\", \"product_name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100038004353\", \"total_reviews\": 20, \"sentiment_distribution\": {\"positive\": 13, \"negative\": 3, \"neutral\": 4, \"positive_rate\": 65.0}, \"top_positive_points\": [{\"point\": \"信号稳定，通话质量清晰\", \"count\": 2}, {\"point\": \"拍照效果非常好，夜景模式很清晰，面部识别和指纹解锁都很灵敏，屏幕显示效果细腻，色彩还原度高\", \"count\": 1}, {\"point\": \"屏幕显示效果细腻，色彩还原度高，手感很好，做工精细，颜值在线，性价比很高，这个价位非常值得\", \"count\": 1}, {\"point\": \"性价比不高，同价位有更好的\", \"count\": 1}, {\"point\": \"拍照效果非常好，夜景模式很清晰，充电速度很快，半小时就能充大半\", \"count\": 1}], \"top_negative_points\": [{\"point\": \"系统有bug，偶尔会闪退\", \"count\": 1}, {\"point\": \"运行速度很快，玩游戏完全不卡，信号稳定，通话质量清晰，充电速度很快，半小时就能充大半\", \"count\": 1}, {\"point\": \"发热严重，玩一会儿就烫手\", \"count\": 1}, {\"point\": \"信号不太好，有时候会断，拍照效果一般，不如宣传的好\", \"count\": 1}], \"divergence_score\": 30.0, \"contradictions\": [{\"topic\": \"质量\", \"positive_views\": [\"信号稳定，通话质量清晰\", \"拍照效果非常好，夜景模式很清晰，面部识别和指纹解锁都很灵敏，屏幕显示效果细腻，色彩还原度高\"], \"negative_views\": [\"运行速度很快，玩游戏完全不卡，信号稳定，通话质量清晰，充电速度很快，半小时就能充大半\", \"信号不太好，有时候会断，拍照效果一般，不如宣传的好\"], \"conflict_level\": \"high\"}, {\"topic\": \"性能\", \"positive_views\": [\"信号稳定，通话质量清晰\", \"拍照效果非常好，夜景模式很清晰，充电速度很快，半小时就能充大半\"], \"negative_views\": [\"运行速度很快，玩游戏完全不卡，信号稳定，通话质量清晰，充电速度很快，半小时就能充大半\"], \"conflict_level\": \"medium\"}, {\"topic\": \"屏幕\", \"positive_views\": [\"信号稳定，通话质量清晰\", \"拍照效果非常好，夜景模式很清晰，面部识别和指纹解锁都很灵敏，屏幕显示效果细腻，色彩还原度高\"], \"negative_views\": [\"运行速度很快，玩游戏完全不卡，信号稳定，通话质量清晰，充电速度很快，半小时就能充大半\", \"信号不太好，有时候会断，拍照效果一般，不如宣传的好\"], \"conflict_level\": \"high\"}, {\"topic\": \"音质\", \"positive_views\": [\"信号稳定，通话质量清晰\", \"拍照效果非常好，夜景模式很清晰，面部识别和指纹解锁都很灵敏，屏幕显示效果细腻，色彩还原度高\"], \"negative_views\": [\"运行速度很快，玩游戏完全不卡，信号稳定，通话质量清晰，充电速度很快，半小时就能充大半\", \"信号不太好，有时候会断，拍照效果一般，不如宣传的好\"], \"conflict_level\": \"high\"}], \"summary\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机共有20条评价，好评率65.0%。用户普遍认可：信号稳定，通话质量清晰。主要槽点：系统有bug，偶尔会闪退。评价存在分歧的方面：质量, 性能。\"}",
+      "timestamp": "2026-04-10T09:47:48.356Z"
+    },
+    {
+      "role": "user",
+      "content": "推荐购买吗",
+      "timestamp": "2026-04-10T09:47:52.354Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"purchase_recommendation\", \"product_name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100038004353\", \"recommendation\": \"recommended\", \"recommendation_text\": \"推荐购买\", \"positive_rate\": 73.3, \"total_reviews\": 30, \"pros\": [\"信号稳定，通话质量清晰\", \"拍照效果非常好，夜景模式很清晰，面部识别和指纹解锁都很灵敏，屏幕显示效果细腻，色彩还原度高\", \"屏幕显示效果细腻，色彩还原度高，手感很好，做工精细，颜值在线，性价比很高，这个价位非常值得\"], \"cons\": [\"系统有bug，偶尔会闪退\", \"运行速度很快，玩游戏完全不卡，信号稳定，通话质量清晰，充电速度很快，半小时就能充大半\", \"发热严重，玩一会儿就烫手\"], \"summary\": \"该商品好评率73%。优点：信号稳定，通话质量清晰, 拍照效果非常好，夜景模式很清晰，面部识别和指纹解锁都很灵敏，屏幕显示效果细腻，色彩还原度高; 注意：系统有bug，偶尔会闪退, 运行速度很快，玩游戏完全不卡，信号稳定，通话质量清晰，充电速度很快，半小时就能充大半。\"}",
+      "timestamp": "2026-04-10T09:47:52.594Z"
+    }
+  ]
+}
