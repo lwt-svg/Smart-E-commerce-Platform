@@ -10,3 +10,5 @@ muxi_shop_web/node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+ecommerce_agent/chroma_db/
