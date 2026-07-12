@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-07-11T10:53:12.104Z",
+  "updated_at": "2026-07-11T10:53:12.104Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我查找款 oppo手机",
+      "timestamp": "2026-07-11T10:51:27.175Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-07-11T10:51:27.176Z"
+    },
+    {
+      "role": "user",
+      "content": "查找华为牌的手机",
+      "timestamp": "2026-07-11T10:52:13.711Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-07-11T10:52:13.711Z"
+    },
+    {
+      "role": "user",
+      "content": "第一款手机评价咋样啊",
+      "timestamp": "2026-07-11T10:52:24.565Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-07-11T10:52:24.565Z"
+    },
+    {
+      "role": "user",
+      "content": "推荐购买吗",
+      "timestamp": "2026-07-11T10:52:48.591Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-07-11T10:52:48.591Z"
+    }
+  ]
+}

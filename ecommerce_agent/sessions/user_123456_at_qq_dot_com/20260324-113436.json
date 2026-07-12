@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-03-24T11:34:36.487Z",
+  "updated_at": "2026-03-24T11:34:36.487Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "查询购物车",
+      "timestamp": "2026-03-24T11:24:31.715Z"
+    },
+    {
+      "role": "assistant",
+      "content": "🤖 智能助手服务内部错误，请稍后重试。",
+      "timestamp": "2026-03-24T11:24:32.342Z"
+    },
+    {
+      "role": "user",
+      "content": "查询购物车",
+      "timestamp": "2026-03-24T11:31:43.054Z"
+    },
+    {
+      "role": "assistant",
+      "content": "您的账户信息:\n- 用户名: lwt\n- 用户ID: 1\n- Email: 123456@qq.com\n\n【您的购物车】共 2 件商品：\n{\"type\": \"product_list\", \"products\": [{\"name\": \"徕芬 吹风机家用 电吹风筒大功率高速吹风机负离子护发大风力速干低噪音吹风筒 莱芬便携无叶礼物品LF03简白\", \"price\": 569.0, \"image_url\": \"http://localhost:8001/static/product_images/100032482483.jpg\", \"product_url\": \"http://localhost:8080/detail/100032482483\", \"sku\": \"100032482483\"}, {\"name\": \"nubia 努比亚Z40S Pro 120W快充 18GB+1T 夜海 骁龙8+处理器 35mm定制光学人文影像2.0电竞直屏拍照5G手机\", \"price\": 6699.0, \"image_url\": \"http://localhost:8001/static/product_images/100028506133.jpg\", \"product_url\": \"http://localhost:8080/detail/100028506133\", \"sku\": \"100028506133\"}]}\n购物车总价: ¥7268.00\n\n【您的订单】共 2 个订单：\n\n1. 订单编号: 1772780618888\n   订单ID: 23\n   订单金额: ¥688.00\n   支付状态: 1\n   创建时间: 2026-03-06 15:03:40\n\n2. 订单编号: 1685616713600\n   订单ID: 20\n   订单金额: ¥37.90\n   支付状态: 0\n   创建时间: 2025-11-25 21:21:22\n",
+      "timestamp": "2026-03-24T11:31:43.828Z"
+    },
+    {
+      "role": "user",
+      "content": "查询订单",
+      "timestamp": "2026-03-24T11:31:48.794Z"
+    },
+    {
+      "role": "assistant",
+      "content": "请具体说明要查询哪个订单，例如输入订单号，或者说‘查询购物车’查看购物车和订单概览。",
+      "timestamp": "2026-03-24T11:31:49.113Z"
+    },
+    {
+      "role": "user",
+      "content": "所有的订单",
+      "timestamp": "2026-03-24T11:31:55.291Z"
+    },
+    {
+      "role": "assistant",
+      "content": "请具体说明要查询哪个订单，例如输入订单号，或者说‘查询购物车’查看购物车和订单概览。",
+      "timestamp": "2026-03-24T11:31:55.649Z"
+    },
+    {
+      "role": "user",
+      "content": "查询订单",
+      "timestamp": "2026-03-24T11:34:30.031Z"
+    },
+    {
+      "role": "assistant",
+      "content": "您的账户信息:\n- 用户名: lwt\n- 用户ID: 1\n- Email: 123456@qq.com\n\n【您的购物车】共 2 件商品：\n{\"type\": \"product_list\", \"products\": [{\"name\": \"徕芬 吹风机家用 电吹风筒大功率高速吹风机负离子护发大风力速干低噪音吹风筒 莱芬便携无叶礼物品LF03简白\", \"price\": 569.0, \"image_url\": \"http://localhost:8001/static/product_images/100032482483.jpg\", \"product_url\": \"http://localhost:8080/detail/100032482483\", \"sku\": \"100032482483\"}, {\"name\": \"nubia 努比亚Z40S Pro 120W快充 18GB+1T 夜海 骁龙8+处理器 35mm定制光学人文影像2.0电竞直屏拍照5G手机\", \"price\": 6699.0, \"image_url\": \"http://localhost:8001/static/product_images/100028506133.jpg\", \"product_url\": \"http://localhost:8080/detail/100028506133\", \"sku\": \"100028506133\"}]}\n购物车总价: ¥7268.00\n\n【您的订单】共 2 个订单：\n\n1. 订单编号: 1772780618888\n   订单ID: 23\n   订单金额: ¥688.00\n   支付状态: 1\n   创建时间: 2026-03-06 15:03:40\n\n2. 订单编号: 1685616713600\n   订单ID: 20\n   订单金额: ¥37.90\n   支付状态: 0\n   创建时间: 2025-11-25 21:21:22\n",
+      "timestamp": "2026-03-24T11:34:30.794Z"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-03-24T12:10:20.322Z",
+  "updated_at": "2026-03-24T12:10:20.322Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "华为手机的价格是多少？",
+      "timestamp": "2026-03-24T12:02:16.815Z"
+    },
+    {
+      "role": "assistant",
+      "content": "请先提供明确的商品目标，或者先让我帮您推荐商品。",
+      "timestamp": "2026-03-24T12:02:17.148Z"
+    },
+    {
+      "role": "user",
+      "content": "帮我找一个预算3000元以内的电子产品",
+      "timestamp": "2026-03-24T12:02:20.766Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"定金       【试驾】哈弗全系车型试驾赢50元好礼 哈弗大狗\", \"price\": 1.0, \"image_url\": \"http://localhost:8001/static/product_images/10029544065977.jpg\", \"product_url\": \"http://localhost:8080/detail/10029544065977\", \"sku_id\": \"10029544065977\"}, {\"name\": \"试驾  【我们Hi在一起】吉利新缤越  1元试驾\", \"price\": 1.0, \"image_url\": \"http://localhost:8001/static/product_images/10045105773338.jpg\", \"product_url\": \"http://localhost:8080/detail/10045105773338\", \"sku_id\": \"10045105773338\"}, {\"name\": \"好顺轮胎泡沫光亮剂清洁剂 轮胎蜡 汽车用品轮胎宝 清洗剂\", \"price\": 10.0, \"image_url\": \"http://localhost:8001/static/product_images/897050.jpg\", \"product_url\": \"http://localhost:8080/detail/897050\", \"sku_id\": \"897050\"}, {\"name\": \"保赐利除锈剂 除锈喷雾剂润滑螺丝螺栓松动剂金属不锈钢去锈清洗清洁剂400ML\", \"price\": 10.6, \"image_url\": \"http://localhost:8001/static/product_images/1009733.jpg\", \"product_url\": \"http://localhost:8080/detail/1009733\", \"sku_id\": \"1009733\"}, {\"name\": \"极度空间 汽车摆件车内饰品车载装饰摆件 创意办公桌面摆件 可爱卡通情侣气球树脂摆件\", \"price\": 11.9, \"image_url\": \"http://localhost:8001/static/product_images/100023899569.jpg\", \"product_url\": \"http://localhost:8080/detail/100023899569\", \"sku_id\": \"100023899569\"}]}",
+      "timestamp": "2026-03-24T12:02:21.148Z"
+    },
+    {
+      "role": "user",
+      "content": "第二个商品评论",
+      "timestamp": "2026-03-24T12:02:28.137Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"comment_list\", \"product_name\": \"试驾  【我们Hi在一起】吉利新缤越  1元试驾\", \"sku_id\": \"10045105773338\", \"avg_score\": 4.4, \"total_comments\": 5, \"comments\": [{\"sku_id\": \"10045105773338\", \"nickname\": \"leifang\", \"score\": 5.0, \"create_time\": \"2025-11-08 21:17:09\", \"content\": \"商品名称：王杨\\n评论内容：外观设计质量一般，性价比很高，推荐给大家。\\n评分：5\\n昵称：leifang\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"qiangtan\", \"score\": 3.0, \"create_time\": \"2025-10-30 21:17:09\", \"content\": \"商品名称：崔东\\n评论内容：使用体验设计美观，整体质量性价比高，外观设计服务待改善，包装有点简单，产品还行。\\n评分：3\\n昵称：qiangtan\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"yan30\", \"score\": 4.0, \"create_time\": \"2026-02-01 21:17:09\", \"content\": \"商品名称：王英\\n评论内容：外观设计体验良好，售后服务性价比高，超出预期，好评！\\n评分：4\\n昵称：yan30\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"yangdu\", \"score\": 5.0, \"create_time\": \"2025-10-29 21:17:09\", \"content\": \"商品名称：程峰\\n评论内容：整体质量体验良好，性价比设计美观，外观设计设计美观，整体满意，推荐！\\n评分：5\\n昵称：yangdu\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"ochang\", \"score\": 5.0, \"create_time\": \"2025-12-25 21:17:09\", \"content\": \"商品名称：李洁\\n评论内容：性价比设计美观，超出预期，好评！\\n评分：5\\n昵称：ochang\"}]}",
+      "timestamp": "2026-03-24T12:02:30.934Z"
+    },
+    {
+      "role": "user",
+      "content": "第二个商品评论",
+      "timestamp": "2026-03-24T12:10:10.086Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"comment_list\", \"product_name\": \"试驾  【我们Hi在一起】吉利新缤越  1元试驾\", \"sku_id\": \"10045105773338\", \"avg_score\": 4.4, \"total_comments\": 5, \"comments\": [{\"sku_id\": \"10045105773338\", \"nickname\": \"leifang\", \"score\": 5.0, \"create_time\": \"2025-11-08 21:17:09\", \"content\": \"商品名称：王杨\\n评论内容：外观设计质量一般，性价比很高，推荐给大家。\\n评分：5\\n昵称：leifang\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"qiangtan\", \"score\": 3.0, \"create_time\": \"2025-10-30 21:17:09\", \"content\": \"商品名称：崔东\\n评论内容：使用体验设计美观，整体质量性价比高，外观设计服务待改善，包装有点简单，产品还行。\\n评分：3\\n昵称：qiangtan\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"yan30\", \"score\": 4.0, \"create_time\": \"2026-02-01 21:17:09\", \"content\": \"商品名称：王英\\n评论内容：外观设计体验良好，售后服务性价比高，超出预期，好评！\\n评分：4\\n昵称：yan30\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"yangdu\", \"score\": 5.0, \"create_time\": \"2025-10-29 21:17:09\", \"content\": \"商品名称：程峰\\n评论内容：整体质量体验良好，性价比设计美观，外观设计设计美观，整体满意，推荐！\\n评分：5\\n昵称：yangdu\"}, {\"sku_id\": \"10045105773338\", \"nickname\": \"ochang\", \"score\": 5.0, \"create_time\": \"2025-12-25 21:17:09\", \"content\": \"商品名称：李洁\\n评论内容：性价比设计美观，超出预期，好评！\\n评分：5\\n昵称：ochang\"}]}",
+      "timestamp": "2026-03-24T12:10:17.688Z"
+    }
+  ]
+}

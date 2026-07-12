@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-04-10T10:07:32.065Z",
+  "updated_at": "2026-04-10T10:07:32.065Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我推荐华为平板",
+      "timestamp": "2026-04-10T10:03:11.033Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"price\": 8309.0, \"image_url\": \"http://localhost:8001/static/product_images/100019297561.jpg\", \"product_url\": \"http://localhost:8080/detail/100019297561\", \"sku_id\": \"100019297561\", \"main_brand\": \"华为\", \"main_category\": \"平板\"}]}",
+      "timestamp": "2026-04-10T10:03:11.399Z"
+    },
+    {
+      "role": "user",
+      "content": "这款商品优点是啥",
+      "timestamp": "2026-04-10T10:03:21.095Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"positive_points\", \"query\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"total\": 5, \"points\": [{\"rank\": 1, \"product_name\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"sku_id\": \"100019297561\", \"point\": \"信号稳定，通话质量清晰\", \"score\": 4.5, \"confidence\": 0.76}, {\"rank\": 2, \"product_name\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"sku_id\": \"100019297561\", \"point\": \"屏幕显示效果细腻，色彩还原度高\", \"score\": 4.5, \"confidence\": 0.76}, {\"rank\": 3, \"product_name\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"sku_id\": \"100019297561\", \"point\": \"手感很好，做工精细，颜值在线\", \"score\": 5.0, \"confidence\": 0.82}, {\"rank\": 4, \"product_name\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"sku_id\": \"100019297561\", \"point\": \"运行速度很快，玩游戏完全不卡\", \"score\": 4.0, \"confidence\": 0.79}, {\"rank\": 5, \"product_name\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"sku_id\": \"100019297561\", \"point\": \"系统流畅，没有广告，体验很好\", \"score\": 4.0, \"confidence\": 0.91}]}",
+      "timestamp": "2026-04-10T10:03:26.998Z"
+    },
+    {
+      "role": "user",
+      "content": "综合评价呢",
+      "timestamp": "2026-04-10T10:03:33.624Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"sentiment_analysis\", \"product_name\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔\", \"sku_id\": \"100019297561\", \"total_reviews\": 20, \"sentiment_distribution\": {\"positive\": 15, \"negative\": 5, \"neutral\": 0, \"positive_rate\": 75.0}, \"top_positive_points\": [{\"point\": \"运行速度很快，玩游戏完全不卡\", \"count\": 2}, {\"point\": \"屏幕显示效果细腻，色彩还原度高，面部识别和指纹解锁都很灵敏\", \"count\": 1}, {\"point\": \"拍照效果一般，不如宣传的好\", \"count\": 1}, {\"point\": \"电池续航给力，一天一充完全够用\", \"count\": 1}, {\"point\": \"性价比不高，同价位有更好的，电池续航不行，半天就没电了\", \"count\": 1}], \"top_negative_points\": [{\"point\": \"运行速度很快，玩游戏完全不卡\", \"count\": 2}, {\"point\": \"扬声器音质一般，运行有点卡，打开APP要等\", \"count\": 1}, {\"point\": \"性价比不高，同价位有更好的，电池续航不行，半天就没电了\", \"count\": 1}, {\"point\": \"系统有bug，偶尔会闪退\", \"count\": 1}, {\"point\": \"电池续航不行，半天就没电了，扬声器音质一般\", \"count\": 1}], \"divergence_score\": 50.0, \"contradictions\": [{\"topic\": \"质量\", \"positive_views\": [\"拍照效果一般，不如宣传的好\", \"性价比不高，同价位有更好的，电池续航不行，半天就没电了\"], \"negative_views\": [\"性价比不高，同价位有更好的，电池续航不行，半天就没电了\"], \"conflict_level\": \"medium\"}, {\"topic\": \"性能\", \"positive_views\": [\"运行速度很快，玩游戏完全不卡\", \"拍照效果非常好，夜景模式很清晰，屏幕显示效果细腻，色彩还原度高，充电速度很快，半小时就能充大半\"], \"negative_views\": [\"运行速度很快，玩游戏完全不卡\", \"扬声器音质一般，运行有点卡，打开APP要等\"], \"conflict_level\": \"high\"}, {\"topic\": \"续航\", \"positive_views\": [\"电池续航给力，一天一充完全够用\", \"性价比不高，同价位有更好的，电池续航不行，半天就没电了\"], \"negative_views\": [\"性价比不高，同价位有更好的，电池续航不行，半天就没电了\", \"电池续航不行，半天就没电了，扬声器音质一般\"], \"conflict_level\": \"high\"}, {\"topic\": \"屏幕\", \"positive_views\": [\"屏幕显示效果细腻，色彩还原度高，面部识别和指纹解锁都很灵敏\", \"拍照效果一般，不如宣传的好\"], \"negative_views\": [\"性价比不高，同价位有更好的，电池续航不行，半天就没电了\"], \"conflict_level\": \"medium\"}, {\"topic\": \"音质\", \"positive_views\": [\"拍照效果一般，不如宣传的好\", \"性价比不高，同价位有更好的，电池续航不行，半天就没电了\"], \"negative_views\": [\"扬声器音质一般，运行有点卡，打开APP要等\", \"性价比不高，同价位有更好的，电池续航不行，半天就没电了\"], \"conflict_level\": \"high\"}], \"summary\": \"华为HUAWEI MatePad Pro WiFi版 12.6英寸2021 鸿蒙HarmonyOS麒麟9000E OLED全面屏 12+512夏日胡杨 键盘+笔共有20条评价，好评率75.0%。用户普遍认可：运行速度很快，玩游戏完全不卡。主要槽点：运行速度很快，玩游戏完全不卡。评价存在分歧的方面：质量, 性能。\"}",
+      "timestamp": "2026-04-10T10:03:34.300Z"
+    },
+    {
+      "role": "user",
+      "content": "推荐购买不",
+      "timestamp": "2026-04-10T10:03:47.608Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"定金       【试驾】哈弗全系车型试驾赢50元好礼 哈弗大狗\", \"price\": 1.0, \"image_url\": \"http://localhost:8001/static/product_images/10029544065977.jpg\", \"product_url\": \"http://localhost:8080/detail/10029544065977\", \"sku_id\": \"10029544065977\", \"main_brand\": \"哈弗\", \"main_category\": \"汽车用品\"}, {\"name\": \"试驾  【我们Hi在一起】吉利新缤越  1元试驾\", \"price\": 1.0, \"image_url\": \"http://localhost:8001/static/product_images/10045105773338.jpg\", \"product_url\": \"http://localhost:8080/detail/10045105773338\", \"sku_id\": \"10045105773338\", \"main_brand\": \"吉利\", \"main_category\": \"汽车用品\"}, {\"name\": \"好顺轮胎泡沫光亮剂清洁剂 轮胎蜡 汽车用品轮胎宝 清洗剂\", \"price\": 10.0, \"image_url\": \"http://localhost:8001/static/product_images/897050.jpg\", \"product_url\": \"http://localhost:8080/detail/897050\", \"sku_id\": \"897050\", \"main_brand\": \"好顺轮胎\", \"main_category\": \"汽车用品\"}, {\"name\": \"保赐利除锈剂 除锈喷雾剂润滑螺丝螺栓松动剂金属不锈钢去锈清洗清洁剂400ML\", \"price\": 10.6, \"image_url\": \"http://localhost:8001/static/product_images/1009733.jpg\", \"product_url\": \"http://localhost:8080/detail/1009733\", \"sku_id\": \"1009733\", \"main_brand\": \"保赐利\", \"main_category\": \"家居生活\"}, {\"name\": \"极度空间 汽车摆件车内饰品车载装饰摆件 创意办公桌面摆件 可爱卡通情侣气球树脂摆件\", \"price\": 11.9, \"image_url\": \"http://localhost:8001/static/product_images/100023899569.jpg\", \"product_url\": \"http://localhost:8080/detail/100023899569\", \"sku_id\": \"100023899569\", \"main_brand\": \"极度空间\", \"main_category\": \"其他\"}, {\"name\": \"来伊份 话梅片 无核日式梅片紫苏梅片梅子蜜饯休闲零食90g/袋新老包装随机发货\", \"price\": 12.8, \"image_url\": \"http://localhost:8001/static/product_images/100006499970.jpg\", \"product_url\": \"http://localhost:8080/detail/100006499970\", \"sku_id\": \"100006499970\", \"main_brand\": \"未知\", \"main_category\": \"食品饮料\"}, {\"name\": \"保赐利除胶剂 去胶清洁剂粘胶去除剂汽车不干胶清洗剂多功能黏胶清除剂450ML\", \"price\": 12.8, \"image_url\": \"http://localhost:8001/static/product_images/1009750.jpg\", \"product_url\": \"http://localhost:8080/detail/1009750\", \"sku_id\": \"1009750\", \"main_brand\": \"保赐利\", \"main_category\": \"其他\"}, {\"name\": \"【买一送一】恒明医用外科口罩【共100只】三层防护无菌级一次性医用口罩10只独立装50只/盒\", \"price\": 12.9, \"image_url\": \"http://localhost:8001/static/product_images/100017340042.jpg\", \"product_url\": \"http://localhost:8080/detail/100017340042\", \"sku_id\": \"100017340042\", \"main_brand\": \"恒明\", \"main_category\": \"医疗健康\"}, {\"name\": \"福可安一次性医用口罩100只（50只/包*2）防沙尘成人学生男女防细菌医用级透气3层含熔喷布防飞沫雾霾可定制\", \"price\": 12.99, \"image_url\": \"http://localhost:8001/static/product_images/100010166547.jpg\", \"product_url\": \"http://localhost:8080/detail/100010166547\", \"sku_id\": \"100010166547\", \"main_brand\": \"福可安\", \"main_category\": \"医疗健康\"}]}",
+      "timestamp": "2026-04-10T10:03:47.876Z"
+    },
+    {
+      "role": "user",
+      "content": "推荐购买不",
+      "timestamp": "2026-04-10T10:07:22.910Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"purchase_recommendation\", \"product_name\": \"定金       【试驾】哈弗全系车型试驾赢50元好礼 哈弗大狗\", \"sku_id\": \"10029544065977\", \"recommendation\": \"recommended\", \"recommendation_text\": \"推荐购买\", \"positive_rate\": 76.7, \"total_reviews\": 30, \"pros\": [\"质量很好，结实耐用\", \"安装简单，自己就能装，质量很好，结实耐用\", \"性价比高，比实体店便宜，包装仔细，没有损坏\"], \"cons\": [\"价格贵，不值这个价\", \"性价比高，比实体店便宜，包装仔细，没有损坏\", \"外观简约，百搭风格，尺寸合适，放家里刚好，包装仔细，没有损坏\"], \"summary\": \"该商品好评率77%。优点：质量很好，结实耐用, 安装简单，自己就能装，质量很好，结实耐用; 注意：价格贵，不值这个价, 性价比高，比实体店便宜，包装仔细，没有损坏。\"}",
+      "timestamp": "2026-04-10T10:07:23.525Z"
+    }
+  ]
+}

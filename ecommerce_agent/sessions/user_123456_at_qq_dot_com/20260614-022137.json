@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-06-14T02:21:37.071Z",
+  "updated_at": "2026-06-14T02:21:37.071Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我推荐一款手机 加个5000左右的",
+      "timestamp": "2026-06-14T02:15:56.468Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"华为 HUAWEI Mate 30E Pro 5G麒麟990E SoC芯片 双4000万徕卡电影影像 8GB+128GB亮黑色全网通手机\", \"price\": 4699.0, \"image_url\": \"http://localhost:8001/static/product_images/100016170950.jpg\", \"product_url\": \"http://localhost:8080/detail/100016170950\", \"sku_id\": \"100016170950\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"荣耀70 Pro+ IMX800三主摄 天玑9000旗舰芯片 100W超级快充 5G手机 12GB+256GB 亮黑色\", \"price\": 4599.0, \"image_url\": \"http://localhost:8001/static/product_images/100024272645.jpg\", \"product_url\": \"http://localhost:8080/detail/100024272645\", \"sku_id\": \"100024272645\", \"main_brand\": \"华为荣耀\", \"main_category\": \"手机\"}, {\"name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"price\": 4599.0, \"image_url\": \"http://localhost:8001/static/product_images/100027837235.jpg\", \"product_url\": \"http://localhost:8080/detail/100027837235\", \"sku_id\": \"100027837235\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"摩托罗拉moto edge S30 骁龙888+ 1亿像素 144Hz高刷电竞屏 5000mAh大电池 5G旗舰手机 12GB+256GB 魅影黑\", \"price\": 1999.0, \"image_url\": \"http://localhost:8001/static/product_images/100016592733.jpg\", \"product_url\": \"http://localhost:8080/detail/100016592733\", \"sku_id\": \"100016592733\", \"main_brand\": \"摩托罗拉\", \"main_category\": \"手机数码\"}, {\"name\": \"新款上海中兴守护宝H2商务轻奢全网通4G双卡双待大内存大电量超长待机生活三防便宜备用智能手机 黑色 8G+128G\", \"price\": 999.0, \"image_url\": \"http://localhost:8001/static/product_images/10059018916718.jpg\", \"product_url\": \"http://localhost:8080/detail/10059018916718\", \"sku_id\": \"10059018916718\", \"main_brand\": \"上海中兴\", \"main_category\": \"手机数码\"}, {\"name\": \"二手苹果iPhone4s手机苹果4s小屏学生老人备用智能手机 4 wifi版 不插卡 白色 8成新 8GB 中国大陆\", \"price\": 91.0, \"image_url\": \"http://localhost:8001/static/product_images/10043461539239.jpg\", \"product_url\": \"http://localhost:8080/detail/10043461539239\", \"sku_id\": \"10043461539239\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}, {\"name\": \"松下（Panasonic） 【日本直邮】血压计Panasonic腕式电子血压计家用全自动精准测量 EW-BW35\", \"price\": 804.0, \"image_url\": \"http://localhost:8001/static/product_images/30667965992.jpg\", \"product_url\": \"http://localhost:8080/detail/30667965992\", \"sku_id\": \"30667965992\", \"main_brand\": \"松下\", \"main_category\": \"手机数码\"}, {\"name\": \"aiwa 【日本直邮 日本发货】Aiwa 爱华迷你便携收音机 支持FM/AM 干电池式 立体声收音机 AR-DP35B\", \"price\": 211.0, \"image_url\": \"http://localhost:8001/static/product_images/10041921217707.jpg\", \"product_url\": \"http://localhost:8080/detail/10041921217707\", \"sku_id\": \"10041921217707\", \"main_brand\": \"aiwa\", \"main_category\": \"手机数码\"}]}",
+      "timestamp": "2026-06-14T02:16:20.747Z"
+    },
+    {
+      "role": "user",
+      "content": "第二款手机评价咋样",
+      "timestamp": "2026-06-14T02:16:34.481Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"sentiment_analysis\", \"product_name\": \"荣耀70 Pro+ IMX800三主摄 天玑9000旗舰芯片 100W超级快充 5G手机 12GB+256GB 亮黑色\", \"sku_id\": \"100024272645\", \"total_reviews\": 20, \"sentiment_distribution\": {\"positive\": 15, \"negative\": 4, \"neutral\": 1, \"positive_rate\": 75.0}, \"top_positive_points\": [{\"point\": \"手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好\", \"count\": 1}, {\"point\": \"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\", \"count\": 1}, {\"point\": \"电池续航给力，一天一充完全够用，屏幕显示效果细腻，色彩还原度高，系统流畅，没有广告，体验很好\", \"count\": 1}, {\"point\": \"手感很好，做工精细，颜值在线\", \"count\": 1}, {\"point\": \"系统有bug，偶尔会闪退，拍照效果一般，不如宣传的好\", \"count\": 1}], \"top_negative_points\": [{\"point\": \"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\", \"count\": 1}, {\"point\": \"系统有bug，偶尔会闪退，拍照效果一般，不如宣传的好\", \"count\": 1}, {\"point\": \"系统流畅，没有广告，体验很好，运行速度很快，玩游戏完全不卡，性价比很高，这个价位非常值得\", \"count\": 1}, {\"point\": \"发热严重，玩一会儿就烫手\", \"count\": 1}, {\"point\": \"信号不太好，有时候会断\", \"count\": 1}], \"divergence_score\": 40.0, \"contradictions\": [{\"topic\": \"价格\", \"positive_views\": [\"手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好\", \"手感很好，做工精细，颜值在线\"], \"negative_views\": [\"系统流畅，没有广告，体验很好，运行速度很快，玩游戏完全不卡，性价比很高，这个价位非常值得\"], \"conflict_level\": \"medium\"}, {\"topic\": \"质量\", \"positive_views\": [\"手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好\", \"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\"], \"negative_views\": [\"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\", \"系统有bug，偶尔会闪退，拍照效果一般，不如宣传的好\"], \"conflict_level\": \"high\"}, {\"topic\": \"性能\", \"positive_views\": [\"手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好\", \"电池续航给力，一天一充完全够用，屏幕显示效果细腻，色彩还原度高，系统流畅，没有广告，体验很好\"], \"negative_views\": [\"系统流畅，没有广告，体验很好，运行速度很快，玩游戏完全不卡，性价比很高，这个价位非常值得\"], \"conflict_level\": \"medium\"}, {\"topic\": \"屏幕\", \"positive_views\": [\"手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好\", \"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\"], \"negative_views\": [\"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\", \"系统有bug，偶尔会闪退，拍照效果一般，不如宣传的好\"], \"conflict_level\": \"high\"}, {\"topic\": \"音质\", \"positive_views\": [\"手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好\", \"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\"], \"negative_views\": [\"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\", \"系统有bug，偶尔会闪退，拍照效果一般，不如宣传的好\"], \"conflict_level\": \"high\"}], \"summary\": \"荣耀70 Pro+ IMX800三主摄 天玑9000旗舰芯片 100W超级快充 5G手机 12GB+256GB 亮黑色共有20条评价，好评率75.0%。用户普遍认可：手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好。主要槽点：发热严重，玩一会儿就烫手，性价比不高，同价位有更好的。评价存在分歧的方面：价格, 质量。\"}",
+      "timestamp": "2026-06-14T02:16:39.663Z"
+    },
+    {
+      "role": "user",
+      "content": "推荐购买吗",
+      "timestamp": "2026-06-14T02:16:55.314Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"purchase_recommendation\", \"product_name\": \"荣耀70 Pro+ IMX800三主摄 天玑9000旗舰芯片 100W超级快充 5G手机 12GB+256GB 亮黑色\", \"sku_id\": \"100024272645\", \"recommendation\": \"recommended\", \"recommendation_text\": \"推荐购买\", \"positive_rate\": 76.7, \"total_reviews\": 30, \"pros\": [\"拍照效果非常好，夜景模式很清晰\", \"电池续航给力，一天一充完全够用\", \"手感很好，做工精细，颜值在线，电池续航给力，一天一充完全够用，系统流畅，没有广告，体验很好\"], \"cons\": [\"发热严重，玩一会儿就烫手，性价比不高，同价位有更好的\", \"系统有bug，偶尔会闪退，拍照效果一般，不如宣传的好\", \"系统流畅，没有广告，体验很好，运行速度很快，玩游戏完全不卡，性价比很高，这个价位非常值得\"], \"summary\": \"该商品好评率77%。优点：拍照效果非常好，夜景模式很清晰, 电池续航给力，一天一充完全够用; 注意：发热严重，玩一会儿就烫手，性价比不高，同价位有更好的, 系统有bug，偶尔会闪退，拍照效果一般，不如宣传的好。\"}",
+      "timestamp": "2026-06-14T02:17:00.665Z"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-04-06T14:31:10.884Z",
+  "updated_at": "2026-04-06T14:31:10.884Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我查找华为手机",
+      "timestamp": "2026-04-06T14:19:02.898Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"price\": 4599.0, \"image_url\": \"http://localhost:8001/static/product_images/100027837235.jpg\", \"product_url\": \"http://localhost:8080/detail/100027837235\", \"sku_id\": \"100027837235\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"华为 HUAWEI Mate 30E Pro 5G麒麟990E SoC芯片 双4000万徕卡电影影像 8GB+128GB亮黑色全网通手机\", \"price\": 4699.0, \"image_url\": \"http://localhost:8001/static/product_images/100016170950.jpg\", \"product_url\": \"http://localhost:8080/detail/100016170950\", \"sku_id\": \"100016170950\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"华为mate50RS 保时捷 新品手机 【pro店内可选】 墨蓝瓷 12G+512G\", \"price\": 20999.0, \"image_url\": \"http://localhost:8001/static/product_images/10058788930980.jpg\", \"product_url\": \"http://localhost:8080/detail/10058788930980\", \"sku_id\": \"10058788930980\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"荣耀70 Pro+ IMX800三主摄 天玑9000旗舰芯片 100W超级快充 5G手机 12GB+256GB 亮黑色\", \"price\": 4599.0, \"image_url\": \"http://localhost:8001/static/product_images/100024272645.jpg\", \"product_url\": \"http://localhost:8080/detail/100024272645\", \"sku_id\": \"100024272645\", \"main_brand\": \"华为荣耀\", \"main_category\": \"手机\"}]}",
+      "timestamp": "2026-04-06T14:19:03.546Z"
+    },
+    {
+      "role": "user",
+      "content": "第一款手机的优点是啥",
+      "timestamp": "2026-04-06T14:19:13.495Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"positive_points\", \"query\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"total\": 2, \"points\": [{\"rank\": 1, \"product_name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"sku_id\": \"100027837235\", \"point\": \"信号稳定，通话质量清晰\", \"score\": 5.0, \"confidence\": 0.95}, {\"rank\": 2, \"product_name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"sku_id\": \"100027837235\", \"point\": \"屏幕显示效果细腻，色彩还原度高\", \"score\": 4.0, \"confidence\": 0.95}]}",
+      "timestamp": "2026-04-06T14:19:20.906Z"
+    },
+    {
+      "role": "user",
+      "content": "缺点呢",
+      "timestamp": "2026-04-06T14:19:31.657Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"negative_points\", \"query\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"total\": 5, \"points\": [{\"rank\": 1, \"product_name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"sku_id\": \"100027837235\", \"point\": \"性价比不高，同价位有更好的\", \"score\": 3.0, \"confidence\": 0.95}, {\"rank\": 2, \"product_name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"sku_id\": \"100027837235\", \"point\": \"运行有点卡，打开APP要等\", \"score\": 1.5, \"confidence\": 0.78}, {\"rank\": 3, \"product_name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"sku_id\": \"100027837235\", \"point\": \"系统有bug，偶尔会闪退\", \"score\": 2.0, \"confidence\": 0.8}, {\"rank\": 4, \"product_name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"sku_id\": \"100027837235\", \"point\": \"拍照效果一般，不如宣传的好\", \"score\": 3.0, \"confidence\": 0.91}, {\"rank\": 5, \"product_name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"sku_id\": \"100027837235\", \"point\": \"扬声器音质一般\", \"score\": 2.0, \"confidence\": 0.8}]}",
+      "timestamp": "2026-04-06T14:19:34.738Z"
+    },
+    {
+      "role": "user",
+      "content": "给我综合评价",
+      "timestamp": "2026-04-06T14:19:47.858Z"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 无法连接到智能助手服务，请检查网络连接或服务是否运行。",
+      "timestamp": "2026-04-06T14:21:47.863Z"
+    }
+  ]
+}

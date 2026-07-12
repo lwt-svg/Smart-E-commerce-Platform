@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-11T10:51:03.754Z",
+  "updated_at": "2026-07-11T10:51:03.754Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我找一个预算3000元以内的电子产品",
+      "timestamp": "2026-07-11T10:13:53.654Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-07-11T10:13:53.654Z"
+    },
+    {
+      "role": "user",
+      "content": "查看笔记本电脑的评论",
+      "timestamp": "2026-07-11T10:13:59.395Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-07-11T10:13:59.395Z"
+    }
+  ]
+}

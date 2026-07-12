@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-07-11T13:19:04.724Z",
+  "updated_at": "2026-07-11T13:19:04.724Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我查找几款华为手机",
+      "timestamp": "2026-07-11T11:22:23.625Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-07-11T11:22:23.625Z"
+    },
+    {
+      "role": "user",
+      "content": "帮我查找几款华为手机",
+      "timestamp": "2026-07-11T12:26:13.675Z"
+    },
+    {
+      "role": "assistant",
+      "content": "为您找到以下4款商品：",
+      "timestamp": "2026-07-11T12:26:13.675Z"
+    },
+    {
+      "role": "user",
+      "content": "夏天款的男装",
+      "timestamp": "2026-07-11T12:26:46.923Z"
+    },
+    {
+      "role": "assistant",
+      "content": "为您找到以下10款商品：",
+      "timestamp": "2026-07-11T12:26:46.924Z"
+    },
+    {
+      "role": "user",
+      "content": "夏天款的男士上衣",
+      "timestamp": "2026-07-11T12:27:29.532Z"
+    },
+    {
+      "role": "assistant",
+      "content": "为您找到10款夏天男士上衣。",
+      "timestamp": "2026-07-11T12:27:29.533Z"
+    },
+    {
+      "role": "user",
+      "content": "苹果手机",
+      "timestamp": "2026-07-11T12:30:31.489Z"
+    },
+    {
+      "role": "assistant",
+      "content": "为您找到以下4款苹果手机：",
+      "timestamp": "2026-07-11T12:30:31.489Z"
+    },
+    {
+      "role": "user",
+      "content": "第一款商品评价咋样",
+      "timestamp": "2026-07-11T12:30:54.297Z"
+    },
+    {
+      "role": "assistant",
+      "content": "好的，为您找到5条评论。",
+      "timestamp": "2026-07-11T12:30:54.297Z"
+    },
+    {
+      "role": "user",
+      "content": "推荐购买吗",
+      "timestamp": "2026-07-11T12:31:24.443Z"
+    },
+    {
+      "role": "assistant",
+      "content": "根据您的需求，为您推荐以下产品。",
+      "timestamp": "2026-07-11T12:31:24.443Z"
+    }
+  ]
+}

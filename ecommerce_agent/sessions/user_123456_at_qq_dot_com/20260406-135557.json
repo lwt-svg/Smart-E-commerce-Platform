@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-04-06T13:55:57.162Z",
+  "updated_at": "2026-04-06T13:55:57.162Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "推荐一款华为手机",
+      "timestamp": "2026-04-06T13:46:48.620Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"华为Mate30EPro 5G手机麒麟990E 亮黑色 8GB+128GB （上海电信）\", \"price\": 4599.0, \"image_url\": \"http://localhost:8001/static/product_images/100027837235.jpg\", \"product_url\": \"http://localhost:8080/detail/100027837235\", \"sku_id\": \"100027837235\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"华为 HUAWEI Mate 30E Pro 5G麒麟990E SoC芯片 双4000万徕卡电影影像 8GB+128GB亮黑色全网通手机\", \"price\": 4699.0, \"image_url\": \"http://localhost:8001/static/product_images/100016170950.jpg\", \"product_url\": \"http://localhost:8080/detail/100016170950\", \"sku_id\": \"100016170950\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"华为mate50RS 保时捷 新品手机 【pro店内可选】 墨蓝瓷 12G+512G\", \"price\": 20999.0, \"image_url\": \"http://localhost:8001/static/product_images/10058788930980.jpg\", \"product_url\": \"http://localhost:8080/detail/10058788930980\", \"sku_id\": \"10058788930980\", \"main_brand\": \"华为\", \"main_category\": \"手机\"}, {\"name\": \"荣耀70 Pro+ IMX800三主摄 天玑9000旗舰芯片 100W超级快充 5G手机 12GB+256GB 亮黑色\", \"price\": 4599.0, \"image_url\": \"http://localhost:8001/static/product_images/100024272645.jpg\", \"product_url\": \"http://localhost:8080/detail/100024272645\", \"sku_id\": \"100024272645\", \"main_brand\": \"华为荣耀\", \"main_category\": \"手机\"}]}",
+      "timestamp": "2026-04-06T13:46:48.890Z"
+    }
+  ]
+}

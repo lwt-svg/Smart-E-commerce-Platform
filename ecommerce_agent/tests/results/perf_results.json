@@ -1,0 +1,161 @@
+{
+  "test_time": "2026-07-11T21:23:37.694877",
+  "test_target": "http://localhost:8001/chat",
+  "single_request_tests": [
+    {
+      "scenario": "简单搜索",
+      "message": "华为手机",
+      "repeat_count": 5,
+      "error_count": 0,
+      "avg_total_time": 0.1592,
+      "min_total_time": 0.0761,
+      "max_total_time": 0.2874,
+      "median_total_time": 0.1442,
+      "avg_ttfb": 0.1592,
+      "all_times": [
+        0.2874,
+        0.0761,
+        0.1446,
+        0.1442,
+        0.1439
+      ]
+    },
+    {
+      "scenario": "复杂搜索",
+      "message": "8000左右的苹果手机",
+      "repeat_count": 5,
+      "error_count": 0,
+      "avg_total_time": 0.0865,
+      "min_total_time": 0.0307,
+      "max_total_time": 0.1449,
+      "median_total_time": 0.0775,
+      "avg_ttfb": 0.0865,
+      "all_times": [
+        0.1439,
+        0.0355,
+        0.0307,
+        0.0775,
+        0.1449
+      ]
+    },
+    {
+      "scenario": "购物车查询",
+      "message": "我的购物车",
+      "repeat_count": 5,
+      "error_count": 0,
+      "avg_total_time": 0.1458,
+      "min_total_time": 0.1437,
+      "max_total_time": 0.1496,
+      "median_total_time": 0.1447,
+      "avg_ttfb": 0.1458,
+      "all_times": [
+        0.1465,
+        0.1445,
+        0.1496,
+        0.1437,
+        0.1447
+      ]
+    },
+    {
+      "scenario": "评论分析",
+      "message": "这个商品咋样",
+      "repeat_count": 5,
+      "error_count": 0,
+      "avg_total_time": 0.0088,
+      "min_total_time": 0.0076,
+      "max_total_time": 0.0102,
+      "median_total_time": 0.0087,
+      "avg_ttfb": 0.0088,
+      "all_times": [
+        0.0076,
+        0.0087,
+        0.0102,
+        0.0089,
+        0.0084
+      ]
+    },
+    {
+      "scenario": "闲聊",
+      "message": "你好",
+      "repeat_count": 5,
+      "error_count": 0,
+      "avg_total_time": 5.5148,
+      "min_total_time": 4.9608,
+      "max_total_time": 6.0432,
+      "median_total_time": 5.6028,
+      "avg_ttfb": 5.5148,
+      "all_times": [
+        5.6028,
+        5.0074,
+        6.0432,
+        4.9608,
+        5.96
+      ]
+    }
+  ],
+  "concurrency_tests": [
+    {
+      "concurrency": 1,
+      "total_requests": 20,
+      "success_count": 20,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "batch_duration": 2.4435,
+      "throughput": 8.18,
+      "avg_response_time": 0.1221,
+      "min_response_time": 0.0236,
+      "max_response_time": 0.2939,
+      "p50": 0.1407,
+      "p95": 0.1522,
+      "p99": 0.2656
+    },
+    {
+      "concurrency": 5,
+      "total_requests": 20,
+      "success_count": 20,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "batch_duration": 0.87,
+      "throughput": 22.99,
+      "avg_response_time": 0.2021,
+      "min_response_time": 0.1391,
+      "max_response_time": 0.4782,
+      "p50": 0.172,
+      "p95": 0.4487,
+      "p99": 0.4723
+    },
+    {
+      "concurrency": 10,
+      "total_requests": 20,
+      "success_count": 20,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "batch_duration": 0.5875,
+      "throughput": 34.04,
+      "avg_response_time": 0.2591,
+      "min_response_time": 0.1469,
+      "max_response_time": 0.5421,
+      "p50": 0.226,
+      "p95": 0.5414,
+      "p99": 0.542
+    },
+    {
+      "concurrency": 20,
+      "total_requests": 20,
+      "success_count": 20,
+      "error_count": 0,
+      "error_rate": 0.0,
+      "batch_duration": 0.5978,
+      "throughput": 33.46,
+      "avg_response_time": 0.5409,
+      "min_response_time": 0.5076,
+      "max_response_time": 0.5969,
+      "p50": 0.5142,
+      "p95": 0.5962,
+      "p99": 0.5968
+    }
+  ],
+  "tool_profiling": {
+    "tools": []
+  }
+}

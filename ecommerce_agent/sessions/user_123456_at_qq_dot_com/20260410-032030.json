@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-04-10T03:20:30.668Z",
+  "updated_at": "2026-04-10T03:20:30.668Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我推荐苹果手机",
+      "timestamp": "2026-04-10T03:07:21.727Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"product_list\", \"products\": [{\"name\": \"二手苹果iPhone4s手机苹果4s小屏学生老人备用智能手机 4 wifi版 不插卡 白色 8成新 8GB 中国大陆\", \"price\": 91.0, \"image_url\": \"http://localhost:8001/static/product_images/10043461539239.jpg\", \"product_url\": \"http://localhost:8080/detail/10043461539239\", \"sku_id\": \"10043461539239\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}, {\"name\": \"Apple iPhone 14 (A2884) 128GB 星光色 支持移动联通电信5G 双卡双待手机\", \"price\": 5999.0, \"image_url\": \"http://localhost:8001/static/product_images/100038004353.jpg\", \"product_url\": \"http://localhost:8080/detail/100038004353\", \"sku_id\": \"100038004353\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 128GB 远峰蓝色 支持移动联通电信5G 双卡双待手机（上海电信）\", \"price\": 8999.0, \"image_url\": \"http://localhost:8001/static/product_images/100014373869.jpg\", \"product_url\": \"http://localhost:8080/detail/100014373869\", \"sku_id\": \"100014373869\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}, {\"name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"price\": 9799.0, \"image_url\": \"http://localhost:8001/static/product_images/100019718263.jpg\", \"product_url\": \"http://localhost:8080/detail/100019718263\", \"sku_id\": \"100019718263\", \"main_brand\": \"苹果\", \"main_category\": \"手机\"}]}",
+      "timestamp": "2026-04-10T03:07:22.065Z"
+    },
+    {
+      "role": "user",
+      "content": "第四款商品优点是啥",
+      "timestamp": "2026-04-10T03:07:30.162Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"positive_points\", \"query\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"total\": 5, \"points\": [{\"rank\": 1, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"信号稳定，通话质量清晰\", \"score\": 4.5, \"confidence\": 0.92}, {\"rank\": 2, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"屏幕显示效果细腻，色彩还原度高\", \"score\": 4.5, \"confidence\": 0.87}, {\"rank\": 3, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"手感很好，做工精细，颜值在线\", \"score\": 4.0, \"confidence\": 0.83}, {\"rank\": 4, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"运行速度很快，玩游戏完全不卡\", \"score\": 4.0, \"confidence\": 0.91}, {\"rank\": 5, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"系统流畅，没有广告，体验很好\", \"score\": 4.0, \"confidence\": 0.85}]}",
+      "timestamp": "2026-04-10T03:07:36.364Z"
+    },
+    {
+      "role": "user",
+      "content": "缺点呢",
+      "timestamp": "2026-04-10T03:07:39.094Z"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"type\": \"negative_points\", \"query\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"total\": 5, \"points\": [{\"rank\": 1, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"性价比不高，同价位有更好的\", \"score\": 3.0, \"confidence\": 0.84}, {\"rank\": 2, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"运行有点卡，打开APP要等\", \"score\": 3.0, \"confidence\": 0.82}, {\"rank\": 3, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"信号不太好，有时候会断\", \"score\": 3.0, \"confidence\": 0.84}, {\"rank\": 4, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"系统有bug，偶尔会闪退\", \"score\": 2.0, \"confidence\": 0.83}, {\"rank\": 5, \"product_name\": \"Apple iPhone 13 Pro Max (A2644) 256GB 苍岭绿色 支持移动联通电信5G 双卡双待手机\", \"sku_id\": \"100019718263\", \"point\": \"扬声器音质一般\", \"score\": 1.5, \"confidence\": 0.86}]}",
+      "timestamp": "2026-04-10T03:07:39.839Z"
+    },
+    {
+      "role": "user",
+      "content": "推荐购买吗",
+      "timestamp": "2026-04-10T03:07:43.679Z"
+    },
+    {
+      "role": "assistant",
+      "content": "综合来看，这款手机（第四款）**值得购买**，但需要根据您的具体需求来决定。\n\n**推荐理由：**\n1.  **屏幕与手感极佳**：屏幕显示细腻，色彩还原度高，且做工精细，颜值在线。\n2.  **性能流畅**：运行速度快，游戏体验好。\n\n**需要注意的方面：**\n1.  **性价比不高**：价格相对较高，同价位可能有其他配置更好的选择。\n2.  **信号与系统**：部分用户反馈信号表现一般，且系统偶尔有bug，运行可能存在卡顿。\n\n**总结建议：**\n如果您对屏幕显示效果、手机手感要求较高，且预算充足，这款手机值得考虑。但如果您非常看重性价比，或者对信号、系统稳定性要求极高，建议您对比一下其他型号。",
+      "timestamp": "2026-04-10T03:08:02.380Z"
+    }
+  ]
+}

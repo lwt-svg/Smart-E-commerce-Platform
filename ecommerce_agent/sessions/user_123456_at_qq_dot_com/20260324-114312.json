@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-03-24T11:43:12.473Z",
+  "updated_at": "2026-03-24T11:43:12.473Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "查询我的购物车",
+      "timestamp": "2026-03-24T11:34:44.046Z"
+    },
+    {
+      "role": "assistant",
+      "content": "您的账户信息:\n- 用户名: lwt\n- 用户ID: 1\n- Email: 123456@qq.com\n\n【您的购物车】共 2 件商品：\n{\"type\": \"product_list\", \"products\": [{\"name\": \"徕芬 吹风机家用 电吹风筒大功率高速吹风机负离子护发大风力速干低噪音吹风筒 莱芬便携无叶礼物品LF03简白\", \"price\": 569.0, \"image_url\": \"http://localhost:8001/static/product_images/100032482483.jpg\", \"product_url\": \"http://localhost:8080/detail/100032482483\", \"sku\": \"100032482483\"}, {\"name\": \"nubia 努比亚Z40S Pro 120W快充 18GB+1T 夜海 骁龙8+处理器 35mm定制光学人文影像2.0电竞直屏拍照5G手机\", \"price\": 6699.0, \"image_url\": \"http://localhost:8001/static/product_images/100028506133.jpg\", \"product_url\": \"http://localhost:8080/detail/100028506133\", \"sku\": \"100028506133\"}]}\n购物车总价: ¥7268.00\n\n【您的订单】共 2 个订单：\n\n1. 订单编号: 1772780618888\n   订单ID: 23\n   订单金额: ¥688.00\n   支付状态: 1\n   创建时间: 2026-03-06 15:03:40\n\n2. 订单编号: 1685616713600\n   订单ID: 20\n   订单金额: ¥37.90\n   支付状态: 0\n   创建时间: 2025-11-25 21:21:22\n",
+      "timestamp": "2026-03-24T11:34:44.435Z"
+    },
+    {
+      "role": "user",
+      "content": "查看我的订单",
+      "timestamp": "2026-03-24T11:34:45.558Z"
+    },
+    {
+      "role": "assistant",
+      "content": "您的账户信息:\n- 用户名: lwt\n- 用户ID: 1\n- Email: 123456@qq.com\n\n【您的购物车】共 2 件商品：\n{\"type\": \"product_list\", \"products\": [{\"name\": \"徕芬 吹风机家用 电吹风筒大功率高速吹风机负离子护发大风力速干低噪音吹风筒 莱芬便携无叶礼物品LF03简白\", \"price\": 569.0, \"image_url\": \"http://localhost:8001/static/product_images/100032482483.jpg\", \"product_url\": \"http://localhost:8080/detail/100032482483\", \"sku\": \"100032482483\"}, {\"name\": \"nubia 努比亚Z40S Pro 120W快充 18GB+1T 夜海 骁龙8+处理器 35mm定制光学人文影像2.0电竞直屏拍照5G手机\", \"price\": 6699.0, \"image_url\": \"http://localhost:8001/static/product_images/100028506133.jpg\", \"product_url\": \"http://localhost:8080/detail/100028506133\", \"sku\": \"100028506133\"}]}\n购物车总价: ¥7268.00\n\n【您的订单】共 2 个订单：\n\n1. 订单编号: 1772780618888\n   订单ID: 23\n   订单金额: ¥688.00\n   支付状态: 1\n   创建时间: 2026-03-06 15:03:40\n\n2. 订单编号: 1685616713600\n   订单ID: 20\n   订单金额: ¥37.90\n   支付状态: 0\n   创建时间: 2025-11-25 21:21:22\n",
+      "timestamp": "2026-03-24T11:34:45.954Z"
+    }
+  ]
+}

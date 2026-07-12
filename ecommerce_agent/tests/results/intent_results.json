@@ -1,0 +1,766 @@
+{
+  "test_time": "2026-07-11 21:21:20",
+  "summary": {
+    "total_cases": 101,
+    "correct_count": 95,
+    "error_count": 6,
+    "overall_accuracy": 0.9406,
+    "macro_precision": 0.9627,
+    "macro_recall": 0.9402,
+    "macro_f1": 0.9443
+  },
+  "per_intent_metrics": {
+    "budget": {
+      "TP": 8,
+      "FP": 0,
+      "FN": 1,
+      "Precision": 1.0,
+      "Recall": 0.8889,
+      "F1": 0.9412
+    },
+    "cart": {
+      "TP": 6,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "checkout": {
+      "TP": 7,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "comparison": {
+      "TP": 6,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "general": {
+      "TP": 7,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "negative": {
+      "TP": 6,
+      "FP": 0,
+      "FN": 1,
+      "Precision": 1.0,
+      "Recall": 0.8571,
+      "F1": 0.9231
+    },
+    "order": {
+      "TP": 7,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "positive": {
+      "TP": 4,
+      "FP": 0,
+      "FN": 2,
+      "Precision": 1.0,
+      "Recall": 0.6667,
+      "F1": 0.8
+    },
+    "price": {
+      "TP": 6,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "purchase_recommendation": {
+      "TP": 8,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "review": {
+      "TP": 8,
+      "FP": 3,
+      "FN": 0,
+      "Precision": 0.7273,
+      "Recall": 1.0,
+      "F1": 0.8421
+    },
+    "score": {
+      "TP": 7,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "search": {
+      "TP": 9,
+      "FP": 3,
+      "FN": 0,
+      "Precision": 0.75,
+      "Recall": 1.0,
+      "F1": 0.8571
+    },
+    "sentiment_analysis": {
+      "TP": 6,
+      "FP": 0,
+      "FN": 2,
+      "Precision": 1.0,
+      "Recall": 0.75,
+      "F1": 0.8571
+    }
+  },
+  "error_cases": [
+    {
+      "input_text": "1000块钱的耳机",
+      "expected": "budget",
+      "actual": "search"
+    },
+    {
+      "input_text": "综合评价一下",
+      "expected": "sentiment_analysis",
+      "actual": "review"
+    },
+    {
+      "input_text": "口碑怎么样",
+      "expected": "sentiment_analysis",
+      "actual": "review"
+    },
+    {
+      "input_text": "正面评价",
+      "expected": "positive",
+      "actual": "review"
+    },
+    {
+      "input_text": "值得买的手机",
+      "expected": "positive",
+      "actual": "search"
+    },
+    {
+      "input_text": "这款手机问题多吗",
+      "expected": "negative",
+      "actual": "search"
+    }
+  ],
+  "all_results": [
+    {
+      "input_text": "华为平板推荐一下",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "帮我看看华为手机",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "有没有苹果手机",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "查一下小米耳机",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "买什么手机好",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "找一款华为手表",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "推荐几款笔记本",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "推荐一下",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "看看有没有便宜的平板",
+      "expected": "search",
+      "actual": "search",
+      "correct": true
+    },
+    {
+      "input_text": "8000左右的苹果手机",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "8000预算买什么手机",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "5000以内买华为",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "3000左右推荐手机",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "预算2000买平板",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "1000块钱的耳机",
+      "expected": "budget",
+      "actual": "search",
+      "correct": false
+    },
+    {
+      "input_text": "学生用推荐",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "1500左右有什么手机",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "便宜点的手机",
+      "expected": "budget",
+      "actual": "budget",
+      "correct": true
+    },
+    {
+      "input_text": "这个多少钱",
+      "expected": "price",
+      "actual": "price",
+      "correct": true
+    },
+    {
+      "input_text": "华为手机价格",
+      "expected": "price",
+      "actual": "price",
+      "correct": true
+    },
+    {
+      "input_text": "苹果平板报价",
+      "expected": "price",
+      "actual": "price",
+      "correct": true
+    },
+    {
+      "input_text": "这款手机多少钱啊",
+      "expected": "price",
+      "actual": "price",
+      "correct": true
+    },
+    {
+      "input_text": "这个多少元",
+      "expected": "price",
+      "actual": "price",
+      "correct": true
+    },
+    {
+      "input_text": "Mate60价钱",
+      "expected": "price",
+      "actual": "price",
+      "correct": true
+    },
+    {
+      "input_text": "看看用户评论",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "这款手机的评价",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "这个商品的评论",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "用户怎么说这款手机",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "这款手机口碑",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "第二款评论",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "第二款评论怎么样",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "这款手机评价咋样",
+      "expected": "review",
+      "actual": "review",
+      "correct": true
+    },
+    {
+      "input_text": "这个平板评分多少",
+      "expected": "score",
+      "actual": "score",
+      "correct": true
+    },
+    {
+      "input_text": "看看星级",
+      "expected": "score",
+      "actual": "score",
+      "correct": true
+    },
+    {
+      "input_text": "这款手机几星",
+      "expected": "score",
+      "actual": "score",
+      "correct": true
+    },
+    {
+      "input_text": "好评率多少",
+      "expected": "score",
+      "actual": "score",
+      "correct": true
+    },
+    {
+      "input_text": "这款商品的评分",
+      "expected": "score",
+      "actual": "score",
+      "correct": true
+    },
+    {
+      "input_text": "评分是多少",
+      "expected": "score",
+      "actual": "score",
+      "correct": true
+    },
+    {
+      "input_text": "好评率怎么样",
+      "expected": "score",
+      "actual": "score",
+      "correct": true
+    },
+    {
+      "input_text": "这个商品咋样",
+      "expected": "sentiment_analysis",
+      "actual": "sentiment_analysis",
+      "correct": true
+    },
+    {
+      "input_text": "第二款怎么样",
+      "expected": "sentiment_analysis",
+      "actual": "sentiment_analysis",
+      "correct": true
+    },
+    {
+      "input_text": "你觉得这款手机好不好",
+      "expected": "sentiment_analysis",
+      "actual": "sentiment_analysis",
+      "correct": true
+    },
+    {
+      "input_text": "综合评价一下",
+      "expected": "sentiment_analysis",
+      "actual": "review",
+      "correct": false
+    },
+    {
+      "input_text": "分析一下这款手机",
+      "expected": "sentiment_analysis",
+      "actual": "sentiment_analysis",
+      "correct": true
+    },
+    {
+      "input_text": "优缺点有哪些",
+      "expected": "sentiment_analysis",
+      "actual": "sentiment_analysis",
+      "correct": true
+    },
+    {
+      "input_text": "好不好用",
+      "expected": "sentiment_analysis",
+      "actual": "sentiment_analysis",
+      "correct": true
+    },
+    {
+      "input_text": "口碑怎么样",
+      "expected": "sentiment_analysis",
+      "actual": "review",
+      "correct": false
+    },
+    {
+      "input_text": "有没有好评",
+      "expected": "positive",
+      "actual": "positive",
+      "correct": true
+    },
+    {
+      "input_text": "这个手机的优点",
+      "expected": "positive",
+      "actual": "positive",
+      "correct": true
+    },
+    {
+      "input_text": "正面评价",
+      "expected": "positive",
+      "actual": "review",
+      "correct": false
+    },
+    {
+      "input_text": "推荐理由是什么",
+      "expected": "positive",
+      "actual": "positive",
+      "correct": true
+    },
+    {
+      "input_text": "好的地方有哪些",
+      "expected": "positive",
+      "actual": "positive",
+      "correct": true
+    },
+    {
+      "input_text": "值得买的手机",
+      "expected": "positive",
+      "actual": "search",
+      "correct": false
+    },
+    {
+      "input_text": "有什么缺点",
+      "expected": "negative",
+      "actual": "negative",
+      "correct": true
+    },
+    {
+      "input_text": "差评多吗",
+      "expected": "negative",
+      "actual": "negative",
+      "correct": true
+    },
+    {
+      "input_text": "不好的地方",
+      "expected": "negative",
+      "actual": "negative",
+      "correct": true
+    },
+    {
+      "input_text": "槽点有哪些",
+      "expected": "negative",
+      "actual": "negative",
+      "correct": true
+    },
+    {
+      "input_text": "避坑指南",
+      "expected": "negative",
+      "actual": "negative",
+      "correct": true
+    },
+    {
+      "input_text": "苹果平板的缺点",
+      "expected": "negative",
+      "actual": "negative",
+      "correct": true
+    },
+    {
+      "input_text": "这款手机问题多吗",
+      "expected": "negative",
+      "actual": "search",
+      "correct": false
+    },
+    {
+      "input_text": "我的购物车",
+      "expected": "cart",
+      "actual": "cart",
+      "correct": true
+    },
+    {
+      "input_text": "查看购物车",
+      "expected": "cart",
+      "actual": "cart",
+      "correct": true
+    },
+    {
+      "input_text": "购物车里有什么",
+      "expected": "cart",
+      "actual": "cart",
+      "correct": true
+    },
+    {
+      "input_text": "查购物车",
+      "expected": "cart",
+      "actual": "cart",
+      "correct": true
+    },
+    {
+      "input_text": "购物车",
+      "expected": "cart",
+      "actual": "cart",
+      "correct": true
+    },
+    {
+      "input_text": "看看购物车",
+      "expected": "cart",
+      "actual": "cart",
+      "correct": true
+    },
+    {
+      "input_text": "帮我结算",
+      "expected": "checkout",
+      "actual": "checkout",
+      "correct": true
+    },
+    {
+      "input_text": "下单吧",
+      "expected": "checkout",
+      "actual": "checkout",
+      "correct": true
+    },
+    {
+      "input_text": "提交订单",
+      "expected": "checkout",
+      "actual": "checkout",
+      "correct": true
+    },
+    {
+      "input_text": "去支付",
+      "expected": "checkout",
+      "actual": "checkout",
+      "correct": true
+    },
+    {
+      "input_text": "我要结算",
+      "expected": "checkout",
+      "actual": "checkout",
+      "correct": true
+    },
+    {
+      "input_text": "结算一下",
+      "expected": "checkout",
+      "actual": "checkout",
+      "correct": true
+    },
+    {
+      "input_text": "帮我支付",
+      "expected": "checkout",
+      "actual": "checkout",
+      "correct": true
+    },
+    {
+      "input_text": "查一下我的订单",
+      "expected": "order",
+      "actual": "order",
+      "correct": true
+    },
+    {
+      "input_text": "我的订单",
+      "expected": "order",
+      "actual": "order",
+      "correct": true
+    },
+    {
+      "input_text": "订单详情",
+      "expected": "order",
+      "actual": "order",
+      "correct": true
+    },
+    {
+      "input_text": "取消订单",
+      "expected": "order",
+      "actual": "order",
+      "correct": true
+    },
+    {
+      "input_text": "所有订单",
+      "expected": "order",
+      "actual": "order",
+      "correct": true
+    },
+    {
+      "input_text": "查看订单",
+      "expected": "order",
+      "actual": "order",
+      "correct": true
+    },
+    {
+      "input_text": "帮我查订单",
+      "expected": "order",
+      "actual": "order",
+      "correct": true
+    },
+    {
+      "input_text": "华为和苹果哪个好",
+      "expected": "comparison",
+      "actual": "comparison",
+      "correct": true
+    },
+    {
+      "input_text": "对比一下这两款",
+      "expected": "comparison",
+      "actual": "comparison",
+      "correct": true
+    },
+    {
+      "input_text": "比较华为和小米",
+      "expected": "comparison",
+      "actual": "comparison",
+      "correct": true
+    },
+    {
+      "input_text": "这两款有什么区别",
+      "expected": "comparison",
+      "actual": "comparison",
+      "correct": true
+    },
+    {
+      "input_text": "选哪个好",
+      "expected": "comparison",
+      "actual": "comparison",
+      "correct": true
+    },
+    {
+      "input_text": "哪个值得买",
+      "expected": "comparison",
+      "actual": "comparison",
+      "correct": true
+    },
+    {
+      "input_text": "这个值得买吗",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "推荐买不",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "建议买吗",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "可以买吗",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "值得入手吗",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "推荐买吗",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "推荐购买不",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "建议买不",
+      "expected": "purchase_recommendation",
+      "actual": "purchase_recommendation",
+      "correct": true
+    },
+    {
+      "input_text": "你好",
+      "expected": "general",
+      "actual": "general",
+      "correct": true
+    },
+    {
+      "input_text": "谢谢",
+      "expected": "general",
+      "actual": "general",
+      "correct": true
+    },
+    {
+      "input_text": "在吗",
+      "expected": "general",
+      "actual": "general",
+      "correct": true
+    },
+    {
+      "input_text": "你是谁",
+      "expected": "general",
+      "actual": "general",
+      "correct": true
+    },
+    {
+      "input_text": "早上好",
+      "expected": "general",
+      "actual": "general",
+      "correct": true
+    },
+    {
+      "input_text": "再见",
+      "expected": "general",
+      "actual": "general",
+      "correct": true
+    },
+    {
+      "input_text": "哈哈",
+      "expected": "general",
+      "actual": "general",
+      "correct": true
+    }
+  ]
+}
