@@ -6,11 +6,6 @@
 ![Vue](https://img.shields.io/badge/Vue-3.x-4FC08D?style=flat&logo=vue.js)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=flat&logo=fastapi)
 ![LangChain](https://img.shields.io/badge/LangChain-0.1-1C3C3C?style=flat)
-<<<<<<< HEAD
-=======
-![Celery](https://img.shields.io/badge/Celery-5.3-37B24D?style=flat&logo=celery)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.12-FF6600?style=flat&logo=rabbitmq)
->>>>>>> b573c31 (update celery module)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat&logo=mysql)
 ![Redis](https://img.shields.io/badge/Redis-6.0+-DC382D?style=flat&logo=redis)
 
@@ -59,23 +54,6 @@
            │   MySQL 8.0     │        │   Redis 6.0+    │        │  Ollama (本地)   │
            │   (端口: 3306)  │        │   (端口: 6379)  │        │  (端口: 11434)  │
            └─────────────────┘        └─────────────────┘        └─────────────────┘
-<<<<<<< HEAD
-=======
-                    │                           ▲
-                    │                           │
-                    ▼                           │
-           ┌─────────────────┐        ┌─────────────────┐
-           │  Celery Worker  │◄───────│  Celery Beat    │
-           │   (定时任务)     │        │   (定时调度)     │
-           └────────┬────────┘        └─────────────────┘
-                    │                           ▲
-                    │                           │
-                    ▼                           │
-           ┌─────────────────────────────────────────────────┐
-           │              RabbitMQ (消息队列)                 │
-           │              (端口: 5672)                        │
-           └─────────────────────────────────────────────────┘
->>>>>>> b573c31 (update celery module)
 ```
 
 ---
@@ -110,16 +88,6 @@
 - ✅ **规则优先** - 规则匹配优先，LLM 备选，提取速度快
 - ✅ **衰减机制** - 偏好权重随时间衰减，保持画像新鲜度
 
-<<<<<<< HEAD
-=======
-### ⏰ 定时任务系统
-- ✅ **Celery Worker** - 异步任务执行器，处理后台任务
-- ✅ **Celery Beat** - 定时调度器，自动触发定时任务
-- ✅ **RabbitMQ** - 消息队列，任务消息中间件
-- ✅ **向量库自动更新** - 定时更新评论向量数据库（每3天凌晨12点）
-- ✅ **任务结果存储** - Redis 存储任务执行结果
-
->>>>>>> b573c31 (update celery module)
 ---
 
 ## 📁 项目结构
@@ -174,14 +142,6 @@ ecommerce-project/
     │       ├── sentiment_analyzer.py   # 情感分析引擎
     │       ├── knowledge_tools.py      # 知识库工具
     │       └── order_cart_tools.py     # 订单购物车工具
-<<<<<<< HEAD
-=======
-    ├── celery_tasks/           # Celery 定时任务
-    │   ├── config.py           # Celery 配置
-    │   ├── main.py             # Celery 应用入口
-    │   └── vector_task/        # 向量更新任务
-    │       └── tasks.py        # 任务定义
->>>>>>> b573c31 (update celery module)
     ├── knowledge/
     │   ├── presales/           # 售前知识库
     │   └── aftersales/         # 售后知识库
@@ -205,12 +165,7 @@ ecommerce-project/
 | Python | 3.10+ | 后端 & 智能体 |
 | Node.js | 18+ | 前端 |
 | MySQL | 8.0+ | 数据库 |
-<<<<<<< HEAD
 | Redis | 6.0+ | 缓存 & 会话 |
-=======
-| Redis | 6.0+ | 缓存 & 会话 & Celery结果存储 |
-| RabbitMQ | 3.12+ | Celery消息队列 |
->>>>>>> b573c31 (update celery module)
 | Ollama | latest | 本地大模型 |
 
 ### 1. 克隆项目
@@ -291,23 +246,6 @@ python build_sentiment_reviews_db.py
 python run.py
 ```
 
-<<<<<<< HEAD
-=======
-### 7. 启动 Celery 定时任务
-
-```bash
-cd ecommerce_agent
-
-# 终端1：启动 Celery Worker（执行任务）
-celery -A celery_tasks.main worker -l info --pool=solo
-
-# 终端2：启动 Celery Beat（定时调度）
-celery -A celery_tasks.main beat -l info
-```
-
-**Windows 注意**：使用 `--pool=solo` 参数，Windows 不支持默认的 prefork 模式。
-
->>>>>>> b573c31 (update celery module)
 ---
 
 ## 🔧 配置说明
@@ -367,28 +305,6 @@ PROFILE_DECAY_FACTOR = 0.9              # 偏好衰减因子
 PROFILE_MIN_WEIGHT = 0.1                # 最小保留权重
 ```
 
-<<<<<<< HEAD
-=======
-### Celery 配置 (ecommerce_agent/celery_tasks/config.py)
-
-```python
-from celery.schedules import crontab
-
-# 消息队列配置
-broker_url = "amqp://guest:guest@localhost:5672//"
-result_backend = "redis://localhost:6379/1"
-timezone = "Asia/Shanghai"
-
-# 定时任务配置
-beat_schedule = {
-    "update-vector-db": {
-        "task": "celery_tasks.vector_task.tasks.update_vector_db",
-        "schedule": crontab(hour=0, minute=0, day_of_month='1,4,7,10,13,16,19,22,25,28'),
-    },
-}
-```
-
->>>>>>> b573c31 (update celery module)
 ### 环境变量配置
 
 ```bash
@@ -558,11 +474,6 @@ python build_sentiment_reviews_db.py
 | MySQL 评论表 | `chroma_db/reviews_positive/` | 正面观点检索 |
 | MySQL 评论表 | `chroma_db/reviews_negative/` | 负面观点检索 |
 
-<<<<<<< HEAD
-=======
-**自动更新**：Celery 定时任务会每3天凌晨12点自动更新向量库，无需手动执行。
-
->>>>>>> b573c31 (update celery module)
 ### 用户画像向量库
 
 自动生成，存储在 `chroma_db/` 目录下：
@@ -616,13 +527,6 @@ python build_sentiment_reviews_db.py
 │        │                              │                       │
 │        └──► 静态文件 (/static/) ◄─────┘                       │
 │                                                              │
-<<<<<<< HEAD
-=======
-│   celery-worker ──► rabbitmq:5672 ──► celery-beat           │
-│        │                    │                                │
-│        └──► redis:6379 ◄────┘ (任务结果存储)                  │
-│                                                              │
->>>>>>> b573c31 (update celery module)
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -822,57 +726,12 @@ _embeddings = OllamaEmbeddings(
 | 数据库连接 | `host: "localhost"` | `host: os.getenv("DB_HOST")` |
 | Redis 连接 | `redis://localhost:6379` | `redis://host.docker.internal:6379` |
 | Ollama 连接 | `http://localhost:11434` | `os.getenv("OLLAMA_BASE_URL")` |
-<<<<<<< HEAD
-=======
-| Celery Broker | `amqp://guest@localhost:5672` | `amqp://guest@guest@rabbitmq:5672` |
->>>>>>> b573c31 (update celery module)
 | 服务间调用 | `proxy_pass http://localhost:8000` | `proxy_pass http://服务名:端口` |
 
 > **核心原则：** 在 Docker 容器内，`localhost` 指向容器自身，必须使用服务名或环境变量访问其他容器。
 
 ---
 
-<<<<<<< HEAD
-=======
-#### 踩坑六：Celery Worker 启动失败
-
-**错误现象：**
-```
-ModuleNotFoundError: No module named 'build_sentiment_reviews_db'
-```
-
-**原因：** Celery Worker 运行时，Python 路径中没有项目根目录。
-
-**解决方案：** 在 `celery_tasks/vector_task/tasks.py` 中添加路径：
-
-```python
-import sys
-import os
-
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0, PROJECT_ROOT)
-```
-
----
-
-#### 踩坑七：Windows 下 Celery 启动报错
-
-**错误现象：**
-```
-ValueError: not enough values to unpack (expected 3, got 0)
-```
-
-**原因：** Windows 不支持 Celery 默认的 `prefork` 进程池。
-
-**解决方案：** 使用 `--pool=solo` 参数启动：
-
-```bash
-celery -A celery_tasks.main worker -l info --pool=solo
-```
-
----
-
->>>>>>> b573c31 (update celery module)
 ### 完整配置文件
 
 #### docker-compose.yml
